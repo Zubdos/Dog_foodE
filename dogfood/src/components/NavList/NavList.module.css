@@ -1,0 +1,41 @@
+ul.footer__list {
+  list-style-type: none;
+}
+
+.footer__list_item {
+  text-decoration: none;
+  text-align: left;
+}
+
+.footer__list_link {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1a1a1a;
+}
+
+@media (max-width: 880px) {
+  .footer__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
